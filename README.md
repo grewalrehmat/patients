@@ -20,9 +20,9 @@ A high-performance, memory-safe, and AI-integrated EHR system powered by Rust, b
   cd patients/
   ```
 - Run 
-```bash
-cargo run
-```
+  ```bash
+  cargo run
+  ```
 
 ## 🔍 Core Features
 
