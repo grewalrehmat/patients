@@ -15,6 +15,15 @@ A high-performance, memory-safe, and AI-integrated EHR system powered by Rust, b
   ```bash
   git clone https://github.com/example/patients.git
   ```
+- Navigate to the repo
+  ```bash
+  cd patients/
+  ```
+-Run 
+```bash
+cargo run
+```
+for the program to run
 
 ## 🔍 Core Features
 
