@@ -19,11 +19,11 @@ A high-performance, memory-safe, and AI-integrated EHR system powered by Rust, b
   ```bash
   cd patients/
   ```
--Run 
+- Run 
 ```bash
 cargo run
 ```
-for the program to run
+  for the program to run
 
 ## 🔍 Core Features
 
