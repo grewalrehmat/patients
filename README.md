@@ -71,3 +71,10 @@ cargo run
 - **Admin**: CRUD permissions on users + logs.
 
 Interns receive tokens that auto-expire on exit from institution (handled by backend).
+
+--
+## 🧾 License
+
+Licensed under the **Apache 2.0 License** — ideal for enterprise-grade use and patent-grant protection.
+
+---
