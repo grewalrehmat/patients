@@ -23,7 +23,6 @@ A high-performance, memory-safe, and AI-integrated EHR system powered by Rust, b
 ```bash
 cargo run
 ```
-  for the program to run
 
 ## 🔍 Core Features
 
@@ -36,36 +35,36 @@ cargo run
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
-### 💻 Frontend
+###  Frontend
 
 - **React JS** (Web Dashboard)
 - **React Native** (Mobile App)
 - **Axios** (API communication)
 
-### 🔧 Backend (Rust)
+###  Backend (Rust)
 
 - **Actix-Web** → High-performance async web framework.
 - **Diesel ORM** → SQL-safe and compile-time checked database queries.
 - **jsonwebtoken / OAuth2** → For access token generation & auth.
 - **serde / serde_json** → JSON serialization.
 
-### 🧠 AI Microservice (Python)
+###  AI Microservice (Python)
 
 - **Flask or FastAPI**
 - **Tesseract OCR** → Extract text from reports.
 - **spaCy / HuggingFace Transformers** → Analyze and predict conditions.
 - **Returns JSON** with potential diagnoses and insights.
 
-### 🗃️ Data Storage
+###  Data Storage
 
 - **PostgreSQL** → Main patient, report & user database.
 - **Redis** → Session management, caching frequent queries.
 
 ---
 
-## 🛡️ Access Control
+##  Access Control
 
 - **Doctors**: Full access to all patients.
 - **Trainees**: Access linked to supervisor only.
