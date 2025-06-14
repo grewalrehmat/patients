@@ -10,6 +10,12 @@ A high-performance, memory-safe, and AI-integrated EHR system powered by Rust, b
 - Intern/trainee token-based access, revoked upon exit.
 - Mortality rate tracking and departmental analytics.
 
+## Installations
+- Clone the repository
+  ```bash
+  git clone https://github.com/example/patients.git
+  ```
+
 ## 🔍 Core Features
 
 - 🧑‍⚕️ Doctor/Trainee/Admin login system.
@@ -57,50 +63,3 @@ A high-performance, memory-safe, and AI-integrated EHR system powered by Rust, b
 - **Admin**: CRUD permissions on users + logs.
 
 Interns receive tokens that auto-expire on exit from institution (handled by backend).
-
----
-
----
-
-## 📊 Mortality Rate Analysis
-
-Each patient record includes:
-- Dates of admission/discharge
-- Supervisor doctor
-- Treatment status (recovered/deceased)
-
-Rust backend aggregates and exposes an endpoint `/api/v1/mortality/doctor/:id` to show:
-- Doctor-level and department-level trends.
-- Visualized in frontend dashboards.
-
----
-
-## 📱 Mobile App Features (Flutter)
-
-- Camera upload for lab reports.
-- AI feedback on diagnosis instantly.
-- View case history assigned by supervisor.
-- Enforced logout post internship via backend expiry tokens.
-
----
-
-## 🔒 Security
-
-- 🔐 OAuth2 or JWT-based login.
-- 🕵️‍♂️ Supervisor linking for interns.
-- 🧾 Audit logs for each update.
-- 🔑 Password hashing (Argon2).
----
-
-## 📘 Future Ideas
-
-- Role-based field masking in patient records.
-- Federated model training via patient trends (privacy-preserved AI).
-
----
-
-## 🧾 License
-
-Licensed under the **Apache 2.0 License** — ideal for enterprise-grade use and patent-grant protection.
-
----
